@@ -11,3 +11,5 @@ DBeaver[介绍](http://www.techrepublic.com/blog/diy-it-guy/diy-manage-databases
 ```ERROR 1045 (28000): Access denied for user 'zdt'@'localhost' (using password: NO)
 ```
 遂使用```mysql -u root -p ```命令输入用户名密码，问题成功解决。
+
+![运行mariadb](https://github.com/tbbrave/smtpPractice/blob/master/pic/mariadb.png)
