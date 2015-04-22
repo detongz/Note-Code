@@ -69,7 +69,7 @@ processingLines::processingLines(){
     string line;
     word *p = NULL;
     head = tail = new word;
-    f.open("/home/zdt/Documents/qtWorkstation/parsing/test.txt");
+    f.open("test.txt");
     while(getline(f, line)){
         parsing(line);
         cout<<endl;
