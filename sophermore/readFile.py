@@ -1,5 +1,5 @@
-f = open("1.fa", 'r')
-w = open("result.txt", "w")
+f = open("/run/media/zdt/2005-C8F8/solexa_100_170_2.fa", 'r')
+w = open("/run/media/zdt/2005-C8F8/result2.txt", "w")
 #文件读取参数中没有rw这样的选项，参看http://www.cnblogs.com/dkblog/archive/2011/02/24/1980651.html
 
 #判断文件是否结束

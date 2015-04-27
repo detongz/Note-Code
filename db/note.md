@@ -19,3 +19,19 @@ DBeaver中由于我在添加用户的时候，使用了系统的’zdt‘用户�
 遂使用```mysql -u root -p ```命令输入用户名密码，问题成功解决。
 
 ![运行mariadb](https://github.com/tbbrave/smtpPractice/blob/master/pic/mariadb.png)
+
+##mysql遇错：
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using passwor 
+解决方法：
+```
+# /etc/init.d/mysql stop 
+# mysqld_safe --user=mysql --skip-grant-tables --skip-networking & 
+# mysql -u root mysql 
+mysql> UPDATE user SET Password=PASSWORD(’newpassword’) where USER=’root’; 
+mysql> FLUSH PRIVILEGES; 
+mysql> quit 
+# /etc/init.d/mysql restart 
+# mysql -uroot -p 
+Enter password: <输入新设的密码newpassword> 
+mysql>
+``` 
