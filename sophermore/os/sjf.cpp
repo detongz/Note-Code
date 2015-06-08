@@ -1,22 +1,22 @@
-#ifndef HEAD_H
-#define HEAD_H
+
 
 #include <queue>
 #include<iostream>
 using namespace std;
+int countTime = 0;
+int wait[]={0,0,0};
 
 class singlePro{
 public:
-    int num;
-    char name;
+    int num;//区间时间
+    int name;
     singlePro *next = NULL;
-
 
     //为每个节点内变量赋值
     void init(int i =0){
         cout<<"\ninput number:";
         cin>>num;
-        name = 65 + i;
+        name = i;
     }
 };
 
@@ -26,18 +26,10 @@ private:
     singlePro* head, *tail;
 public:
     processes();
-    void sjf();
     void runMIN();
 };
 
-void processes::sjf(){
-    cout<<endl;
-    while(head)
-        runMIN();
-}
-
-
-//find min 'rinnign time'and put it at the front of queue.
+//找到运行时间最短的节点，将该节点从链表中取出
 void processes::runMIN(){
     singlePro *p = head;
     singlePro *minNode = p;
@@ -61,10 +53,13 @@ void processes::runMIN(){
         else
             head = minNode->next;
         cout<<"process "<<minNode->name<<" running"<<endl;
+        wait[minNode->name]= countTime;
+        countTime+=minNode->num;
         delete minNode;
     }
 }
 
+//初始化每个模拟的进程，并模拟进程的运行
 processes::processes(){
     int i;
     singlePro *p;
@@ -78,9 +73,16 @@ processes::processes(){
         tail->next = p;
         tail = p;
     }
-    sjf();
+    cout<<endl;
+    while(head)
+        runMIN();
+    double ave = (wait[0]+wait[1]+wait[2])/3.0;
+    cout<<endl<<endl<<"average waiting time is :  "<<ave<<endl;
 }
 
 
-#endif // HEAD_H
+int main()
+{
+    processes p;
+}
 

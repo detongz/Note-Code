@@ -16,7 +16,7 @@ Replace::Replace(){
     //输入引用页号序列(页面走向),初始化引用页数组
     cout << "Please input reference page string :";
     for (i = 0; i < PageNumber; i++)
-        cin >> ReferencePage[i];//引用页暂存引用数组
+        cin >> ReferencePage[i];//引用页暂存引用数组日
     //设定内存实页数(帧数),并分配相应的实页号记录数组空间(页号栈)
     cout << "Please input page frames :";
     cin >> FrameNumber;
@@ -149,50 +149,61 @@ void Replace::Eclock (void){
     InitSpace("EClock");
     for(k=0,j=l=0; k < PageNumber; k++){
         next=ReferencePage[k];
-        for (i=0; i<FrameNumber; i++)
-         if(next==PageFrames[i]){
-            Referencebit[i]=1;
-            count[i]++;
-            if(count[i]%2==0)
-                Modifybit[i]=0;
-            else
-                Modifybit[i]=1;
-            break;
-          }
-        if (i<FrameNumber){
+        for(i=0; i<FrameNumber; i++){//如果要访问的帧已经在页面中存在
+            if(next==PageFrames[i]){
+                Referencebit[i]=1;
+                count[i]++;
+                //如果是因为找不到第一类页面而重新扫描的情况，则把所有“修改位”置为0，否则置1，表示“该页最近已被访问”
+                if(count[i]%2==0)
+                    Modifybit[i]=0;
+                else
+                    Modifybit[i]=1;
+                break;
+            }
+        }
+        //如果要访问的帧在页面中已经存在，那么打印结果推出本次循环
+        if(i<FrameNumber){
             for(i=0; i<FrameNumber; i++) cout << PageFrames[i] << " ";
             cout << endl;
-            continue;
+            continue;//结束单次循环
         }
-        if(Referencebit[j]==1){
+        //如果所有的页面都被访问过了，该算法就简化为纯粹的FIFO算法，把当前j记录的位置置为第一类页面
+        if(Referencebit[j]==1){//j = 0, j=(j+1)%FrameNumber;
             Referencebit[j]==0;
         }
         if(Modifybit[j]==1){
             Modifybit[j]=0;
         }
-        int min = 10*Referencebit[j]+Modifybit[j];
+        //查找第一类地址，00
+        int min = 10*Referencebit[j]+Modifybit[j];//referencebit,modifybit
         int index = j;
         for(i=0;i<FrameNumber;i++){
             if(10*Referencebit[i]+Modifybit[i]<min){
                 min=10*Referencebit[i]+Modifybit[i];
                 index=i;
-            }
+           }
         }
-            EliminatePage[l]=PageFrames[index];
-            PageFrames[index]=next;
-            Referencebit[index]=0;
-            Modifybit[index]=1;
-            count[index]=0;
-            FaultNumber++;
-            j=(j+1)%FrameNumber;
+        //记录下被替换掉的页面数字
+        EliminatePage[l]=PageFrames[index];
+        PageFrames[index]=next;
+        count[index]=0;//标记是第几次查找第一类页
+        j=(j+1)%FrameNumber;//j位置改变，防止最坏情况（变为fifo）发生
+        //打印结果
         for(i=0; i<FrameNumber; i++)
-            if(PageFrames[i]>=0) cout << PageFrames[i] << " ";
-                if(EliminatePage[l]>=0)
-                    cout << "->" << EliminatePage[l++] << endl;
-                else
-                    cout << endl;
+            if(PageFrames[i]>=0)
+                cout << PageFrames[i] << " ";
+        if(EliminatePage[l]>=0){
+            cout << "->" << EliminatePage[l++] << endl;
+            FaultNumber++;//计数器                
+            Referencebit[index]=0;//访问位置为0
+            //修改位置为1
+            Modifybit[index]=1;
+	    //表示该页最近未被访问、但已被修改
+        }
+        else
+            cout << endl;
     }
-    Report();
+    Report();//打印缺页率等信息
 }
 
 int main(int argc,char *argv[]){
@@ -202,3 +213,4 @@ int main(int argc,char *argv[]){
     vmpr->Eclock();
     return 0;
 }
+
