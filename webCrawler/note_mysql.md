@@ -14,3 +14,10 @@ systemctl start mysqld.service
 mysql
 ```
 即可进入mysql命令界面
+
+##python连接mysql数据库
+安装：pip install pymysql/pip install python-mysql都没有什么用，系统是fedora21的，使用
+```
+yum install MySQL-python
+```
+解决了包安装的问题。
