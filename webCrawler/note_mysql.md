@@ -21,3 +21,15 @@ mysql
 yum install MySQL-python
 ```
 解决了包安装的问题。
+
+##navicatl连接数据库
+必须要开启数据库守护进程后linux下的navicat才可成功连接mysql数据库。
+
+##.sql文件
+*.sql文件中存放sql代码
+使用时导入database即可。
+```
+mysql> use db
+Database changed
+mysql> source D:\file.sql
+```
