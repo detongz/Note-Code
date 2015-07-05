@@ -1,8 +1,0 @@
-bin\Debug\RentalSystem.exe
-bin\Debug\RentalSystem.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\RentalSystem.Properties.Resources.resources
-obj\Debug\RentalSystem.csproj.GenerateResource.Cache
-obj\Debug\RentalSystem.exe
-obj\Debug\RentalSystem.pdb
-obj\Debug\RentalSystem.MainForm.resources
