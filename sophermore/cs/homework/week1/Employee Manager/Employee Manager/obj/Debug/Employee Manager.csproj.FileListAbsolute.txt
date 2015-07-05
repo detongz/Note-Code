@@ -1,0 +1,18 @@
+G:\Codes\CS\Employee Manager\Employee Manager\bin\Debug\Employee Manager.exe.config
+G:\Codes\CS\Employee Manager\Employee Manager\bin\Debug\Employee Manager.exe
+G:\Codes\CS\Employee Manager\Employee Manager\bin\Debug\Employee Manager.pdb
+G:\Codes\CS\Employee Manager\Employee Manager\obj\Debug\Employee Manager.csprojResolveAssemblyReference.cache
+G:\Codes\CS\Employee Manager\Employee Manager\obj\Debug\Employee_Manager.Form1.resources
+G:\Codes\CS\Employee Manager\Employee Manager\obj\Debug\Employee_Manager.Properties.Resources.resources
+G:\Codes\CS\Employee Manager\Employee Manager\obj\Debug\Employee Manager.csproj.GenerateResource.Cache
+G:\Codes\CS\Employee Manager\Employee Manager\obj\Debug\Employee Manager.exe
+G:\Codes\CS\Employee Manager\Employee Manager\obj\Debug\Employee Manager.pdb
+C:\Users\tbbrave\Downloads\Employee Manager\Employee Manager\bin\Debug\Employee Manager.exe.config
+C:\Users\tbbrave\Downloads\Employee Manager\Employee Manager\obj\Debug\Employee Manager.exe
+C:\Users\tbbrave\Downloads\Employee Manager\Employee Manager\obj\Debug\Employee Manager.pdb
+C:\Users\tbbrave\Downloads\Employee Manager\Employee Manager\obj\Debug\Employee Manager.csprojResolveAssemblyReference.cache
+C:\Users\tbbrave\Downloads\Employee Manager\Employee Manager\obj\Debug\Employee_Manager.Form1.resources
+C:\Users\tbbrave\Downloads\Employee Manager\Employee Manager\obj\Debug\Employee_Manager.Properties.Resources.resources
+C:\Users\tbbrave\Downloads\Employee Manager\Employee Manager\obj\Debug\Employee Manager.csproj.GenerateResource.Cache
+C:\Users\tbbrave\Downloads\Employee Manager\Employee Manager\bin\Debug\Employee Manager.exe
+C:\Users\tbbrave\Downloads\Employee Manager\Employee Manager\bin\Debug\Employee Manager.pdb

@@ -1,0 +1,16 @@
+E:\Works\深入 .NET 平台与 C# 编程\教材开发\DLC2\指导学习课答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.exe
+E:\Works\深入 .NET 平台与 C# 编程\教材开发\DLC2\指导学习课答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.pdb
+E:\Works\深入 .NET 平台与 C# 编程\教材开发\DLC2\指导学习课答案\阶段4\RentalSystem\RentalSystem\bin\Debug\RentalSystem.exe
+E:\Works\深入 .NET 平台与 C# 编程\教材开发\DLC2\指导学习课答案\阶段4\RentalSystem\RentalSystem\bin\Debug\RentalSystem.pdb
+E:\Works\深入 .NET 平台与 C# 编程\教材开发\DLC2\指导学习课答案\阶段4\RentalSystem\RentalSystem\obj\Debug\ResolveAssemblyReference.cache
+E:\Works\深入 .NET 平台与 C# 编程\教材开发\DLC2\指导学习课答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.MainForm.resources
+E:\Works\深入 .NET 平台与 C# 编程\教材开发\DLC2\指导学习课答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.Properties.Resources.resources
+E:\Works\深入 .NET 平台与 C# 编程\教材开发\DLC2\指导学习课答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.csproj.GenerateResource.Cache
+E:\微软教师用资料\[ACCP.软件工程师.5.0.教学PPT和源代码.内部光盘].accp50\教学电子课件\S2\深入.NET平台和C#编程(.NETOOP)\深入.NET平台和C#编程(.NETOOP)\DLC2\源代码\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.exe
+E:\微软教师用资料\[ACCP.软件工程师.5.0.教学PPT和源代码.内部光盘].accp50\教学电子课件\S2\深入.NET平台和C#编程(.NETOOP)\深入.NET平台和C#编程(.NETOOP)\DLC2\源代码\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.pdb
+E:\微软教师用资料\[ACCP.软件工程师.5.0.教学PPT和源代码.内部光盘].accp50\教学电子课件\S2\深入.NET平台和C#编程(.NETOOP)\深入.NET平台和C#编程(.NETOOP)\DLC2\源代码\阶段4\RentalSystem\RentalSystem\bin\Debug\RentalSystem.exe
+E:\微软教师用资料\[ACCP.软件工程师.5.0.教学PPT和源代码.内部光盘].accp50\教学电子课件\S2\深入.NET平台和C#编程(.NETOOP)\深入.NET平台和C#编程(.NETOOP)\DLC2\源代码\阶段4\RentalSystem\RentalSystem\bin\Debug\RentalSystem.pdb
+E:\微软教师用资料\[ACCP.软件工程师.5.0.教学PPT和源代码.内部光盘].accp50\教学电子课件\S2\深入.NET平台和C#编程(.NETOOP)\深入.NET平台和C#编程(.NETOOP)\DLC2\源代码\阶段4\RentalSystem\RentalSystem\obj\Debug\ResolveAssemblyReference.cache
+E:\微软教师用资料\[ACCP.软件工程师.5.0.教学PPT和源代码.内部光盘].accp50\教学电子课件\S2\深入.NET平台和C#编程(.NETOOP)\深入.NET平台和C#编程(.NETOOP)\DLC2\源代码\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.MainForm.resources
+E:\微软教师用资料\[ACCP.软件工程师.5.0.教学PPT和源代码.内部光盘].accp50\教学电子课件\S2\深入.NET平台和C#编程(.NETOOP)\深入.NET平台和C#编程(.NETOOP)\DLC2\源代码\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.Properties.Resources.resources
+E:\微软教师用资料\[ACCP.软件工程师.5.0.教学PPT和源代码.内部光盘].accp50\教学电子课件\S2\深入.NET平台和C#编程(.NETOOP)\深入.NET平台和C#编程(.NETOOP)\DLC2\源代码\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.csproj.GenerateResource.Cache

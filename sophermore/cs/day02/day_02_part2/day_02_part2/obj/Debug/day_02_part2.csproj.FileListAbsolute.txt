@@ -1,0 +1,6 @@
+D:\workspace\code\smtpPractice\sophermore\cs\day_02_part2\day_02_part2\bin\Debug\day_02_part2.exe.config
+D:\workspace\code\smtpPractice\sophermore\cs\day_02_part2\day_02_part2\bin\Debug\day_02_part2.exe
+D:\workspace\code\smtpPractice\sophermore\cs\day_02_part2\day_02_part2\bin\Debug\day_02_part2.pdb
+D:\workspace\code\smtpPractice\sophermore\cs\day_02_part2\day_02_part2\obj\Debug\day_02_part2.csprojResolveAssemblyReference.cache
+D:\workspace\code\smtpPractice\sophermore\cs\day_02_part2\day_02_part2\obj\Debug\day_02_part2.exe
+D:\workspace\code\smtpPractice\sophermore\cs\day_02_part2\day_02_part2\obj\Debug\day_02_part2.pdb
