@@ -13,7 +13,6 @@ resources:
             name: { get_param: keyname }
             public_key: { get_file: id_rsa.pub }
 
-
 outputs:
     mykey:
         description: output mykey
